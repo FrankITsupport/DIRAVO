@@ -28,3 +28,5 @@ Favicon links are included in the website HTML.
 ## Website integration
 
 The logo and favicon variants are now linked in `index.html`. Photographs in `images/` are resized WebP derivatives of the client's originals, with responsive sizes for the hero, project gallery and confirmed team portraits. The self-hosted Manrope variable font is in `fonts/`, alongside its SIL Open Font License.
+
+`images/hero-workshop.webp` and `images/hero-workshop-900.webp` are AI-generated decorative background imagery showing professional training and stakeholder engagement. They were generated with the built-in image generation tool, and are not documentary photographs of a DIRAVO project. The generation prompt is preserved in `images/hero-workshop.prompt.md`. A responsive translucent overlay is applied in CSS to protect the hero's text and controls. The original generated PNG is retained in the ignored `client data/generated images` folder.
