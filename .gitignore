@@ -1,0 +1,8 @@
+/client data/
+/vendor/
+/node_modules/
+/config/mail.local.php
+/.env
+/.env.*
+/artifacts/
+/.phpunit.cache/

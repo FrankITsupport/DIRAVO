@@ -1,0 +1,13 @@
+{
+  "name": "diravo/website",
+  "description": "DIRAVO Engagements House website and enquiry handler",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.2",
+    "phpmailer/phpmailer": "^7.0"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

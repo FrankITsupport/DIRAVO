@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /client%20data/
+Disallow: /config/
+Disallow: /vendor/
+Disallow: /scripts/
+Disallow: /tests/
+Disallow: /artifacts/
+
+Sitemap: https://www.diravoice-ltd.org/sitemap.xml
