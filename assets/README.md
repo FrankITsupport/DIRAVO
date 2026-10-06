@@ -29,4 +29,6 @@ Favicon links are included in the website HTML.
 
 The logo and favicon variants are now linked in `index.html`. Photographs in `images/` are resized WebP derivatives of the client's originals, with responsive sizes for the hero, project gallery and confirmed team portraits. The self-hosted Manrope variable font is in `fonts/`, alongside its SIL Open Font License.
 
+The five portraits in `images/team/` are transparent cutouts edited from the client photographs in the ignored `raw pics` folder. Full-resolution PNG masters retain alpha; the 480-pixel transparent WebP copies are used for compact team cards. These are AI-assisted edits, so confirm each person's likeness before publishing.
+
 `images/hero-workshop.webp` and `images/hero-workshop-900.webp` are AI-generated decorative background imagery showing professional training and stakeholder engagement. They were generated with the built-in image generation tool, and are not documentary photographs of a DIRAVO project. The generation prompt is preserved in `images/hero-workshop.prompt.md`. A responsive translucent overlay is applied in CSS to protect the hero's text and controls. The original generated PNG is retained in the ignored `client data/generated images` folder.

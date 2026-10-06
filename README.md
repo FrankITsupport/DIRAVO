@@ -1,6 +1,6 @@
 # DIRAVO website
 
-A responsive, one-page website using HTML, CSS, JavaScript and a PHP enquiry handler. Every main section has a minimum viewport height and can grow to accommodate mobile content or expanded details. The client originals remain in the ignored `client data` folder.
+A responsive, one-page website using HTML, CSS, JavaScript and a PHP enquiry handler. Every main section has a minimum viewport height and can grow to accommodate mobile content or expanded details. The client originals remain in the ignored `client data` and `raw pics` folders.
 
 ## Preview locally
 

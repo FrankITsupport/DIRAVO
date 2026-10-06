@@ -1,4 +1,5 @@
 /client data/
+/raw pics/
 /vendor/
 /node_modules/
 /config/mail.local.php
