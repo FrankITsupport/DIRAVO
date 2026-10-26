@@ -49,10 +49,12 @@ h1>span,.gold-text,.approach-footer>p>span{color:var(--gold-heading)}.hero-botto
 @media(max-width:380px){:root{--page-gutter:20px}h1{font-size:64px}.hero-actions{gap:18px}.hero-actions .text-link{font-size:9px}.hero-actions .button{gap:16px;padding:12px 14px}.hero-visual{height:315px}.collage-caption{font-size:7px;gap:7px}.contact-copy h2{font-size:42px}.contact-details a{font-size:16px}.form-row{grid-template-columns:1fr;gap:0}.expert-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.person:hover .portrait-frame>img{transform:none}}
 .team-section .portrait-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:26px 24px}
-.team-section .portrait-frame{height:clamp(180px,18vw,225px);background:#fff}
+.team-section .portrait-frame{aspect-ratio:1;height:auto;display:grid;place-items:center;background:#fff}
+.team-section .person .portrait-frame>img{width:100%;height:100%;object-fit:contain;object-position:center}
+.team-section .person:hover .portrait-frame>img{transform:none}
 .contact-email-links a{display:flex;max-width:100%;width:fit-content;overflow-wrap:anywhere}
 .contact-email-links a+a{margin-top:10px}
-.team-section .person .portrait-frame.is-cutout>img{object-fit:contain;object-position:center bottom;background:transparent}
+.team-section .person .portrait-frame.is-cutout>img{object-fit:contain;object-position:center;background:transparent}
 .team-section .person .portrait-frame.is-contained>img{object-fit:contain;object-position:center;background:#fff}
 .team-section .portrait-placeholder{display:grid;place-items:center;background:linear-gradient(135deg,#e6e9e7,#f1ede5)}
 .team-section .portrait-placeholder span{font-size:48px;font-weight:200;letter-spacing:-.07em;color:#9daab4}
@@ -62,5 +64,5 @@ h1>span,.gold-text,.approach-footer>p>span{color:var(--gold-heading)}.hero-botto
 .team-section .person .small-label{font-size:8px;line-height:1.5;letter-spacing:.06em}
 .team-section .person>p:not(.person-group){font-size:10px;line-height:1.65;max-width:none;margin-top:7px}
 @media(max-width:1000px){.team-section .portrait-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:700px){.team-section .portrait-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 18px}.team-section .portrait-frame{height:220px}}
-@media(max-width:560px){.team-section .portrait-grid{grid-template-columns:1fr;gap:0}.team-section .person{display:grid;grid-template-columns:112px minmax(0,1fr);column-gap:16px;align-items:start;padding:15px 0;border-bottom:1px solid var(--line)}.team-section .portrait-frame{height:132px;grid-row:1/4}.team-section .person>.person-group{margin-top:1px}.team-section .person-heading{min-height:0;padding-top:4px}.team-section .person h3{font-size:17px}.team-section .person .small-label{font-size:8px}.team-section .person>p:not(.person-group){font-size:10px;line-height:1.5;margin-top:5px}}
+@media(max-width:700px){.team-section .portrait-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 18px}}
+@media(max-width:560px){.team-section .portrait-grid{grid-template-columns:1fr;gap:0}.team-section .person{display:grid;grid-template-columns:112px minmax(0,1fr);column-gap:16px;align-items:start;padding:15px 0;border-bottom:1px solid var(--line)}.team-section .portrait-frame{aspect-ratio:auto;height:132px;grid-row:1/4}.team-section .person>.person-group{margin-top:1px}.team-section .person-heading{min-height:0;padding-top:4px}.team-section .person h3{font-size:17px}.team-section .person .small-label{font-size:8px}.team-section .person>p:not(.person-group){font-size:10px;line-height:1.5;margin-top:5px}}
