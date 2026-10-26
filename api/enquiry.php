@@ -108,8 +108,8 @@ if (in_array('All services', $services, true)) {
 
 $config = [
     'transport' => 'smtp', 'host' => '', 'port' => 587, 'encryption' => 'tls',
-    'username' => '', 'password' => '', 'from_email' => 'engage@diravoice-ltd.org',
-    'from_name' => 'DIRAVO Website', 'recipient' => 'engage@diravoice-ltd.org',
+    'username' => '', 'password' => '', 'from_email' => 'engage@diravoice.com',
+    'from_name' => 'DIRAVO Website', 'recipient' => 'engage@diravoice.com',
 ];
 $localConfig = dirname(__DIR__) . '/config/mail.local.php';
 if (is_file($localConfig)) {
@@ -124,7 +124,7 @@ foreach (array_keys($config) as $key) {
         $config[$key] = $environment;
     }
 }
-$fallback = 'We couldn’t send your enquiry just yet. Please email engage@diravoice-ltd.org or contact us on WhatsApp.';
+$fallback = 'We couldn’t send your enquiry just yet. Please email engage@diravoice.com or contact us on WhatsApp.';
 $autoload = dirname(__DIR__) . '/vendor/autoload.php';
 if (!is_file($autoload) || ($config['transport'] === 'smtp' && $config['host'] === '')) {
     respond(503, ['success' => false, 'message' => $fallback]);

@@ -10,7 +10,7 @@ return [
     'encryption' => 'tls',
     'username' => '',
     'password' => '',
-    'from_email' => 'engage@diravoice-ltd.org',
+    'from_email' => 'engage@diravoice.com',
     'from_name' => 'DIRAVO Website',
-    'recipient' => 'engage@diravoice-ltd.org',
+    'recipient' => 'engage@diravoice.com',
 ];

@@ -36,7 +36,7 @@ For production, upload `index.html`, `assets/`, `api/`, `config/`, `vendor/`, `.
 - Prepared photographs: `assets/images/`; logo variants: `assets/brand/`.
 - Email destination and sender: local mail configuration or environment variables.
 
-The initial WhatsApp destination is the latest profile's number: `254704534029`. Update both WhatsApp links and phone links in the HTML if it changes. The canonical URL, social metadata, structured data, sitemap and robots file use `https://www.diravoice-ltd.org/` from the latest profile; keep these consistent with the final live hostname.
+The WhatsApp destination is `254704534029`. Update both WhatsApp links and phone links in the HTML if it changes. The canonical URL, social metadata, structured data, sitemap and robots file use `https://diravoice.com/` from the latest profile; keep these consistent with the final live hostname. The website displays `engage@diravoice.com` and `diravoengagements@gmail.com`; the enquiry form defaults to the `.com` address as its recipient.
 
 The font is self-hosted Manrope under the SIL Open Font License; see `assets/fonts/OFL.txt`. The project uses PHPMailer under its bundled LGPL licence. All substantive page content, including expandable details, is present in the HTML.
 

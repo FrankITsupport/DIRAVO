@@ -8,4 +8,4 @@ Disallow: /scripts/
 Disallow: /tests/
 Disallow: /artifacts/
 
-Sitemap: https://www.diravoice-ltd.org/sitemap.xml
+Sitemap: https://diravoice.com/sitemap.xml
